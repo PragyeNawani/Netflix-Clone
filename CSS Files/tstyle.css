@@ -1,0 +1,28 @@
+.First{
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+.First>div{
+    text-align: center;
+}
+.Second{
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+.Second>div{
+    text-align: center;
+}
+.Third{
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+.Third>div{
+    text-align: center;
+}
+.Fourth{
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+.Fourth>div{
+    text-align: center;
+}

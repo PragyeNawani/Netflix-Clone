@@ -1,0 +1,157 @@
+nav img {
+    width: 100px;
+    margin-top: 15px;
+}
+nav button {
+    position: relative;
+    z-index: 11;
+    margin: 0px 10px;
+    font-size: 10px;
+}
+nav div select {
+    font-size: 10px;
+}
+.flex div select option {
+    font-size: 10px;
+}
+.hero {
+    color: white;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    gap: 20px;
+    padding: 0px 20px;
+}
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
+}
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+}
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 10px;
+    border-radius: 4px;
+    font-weight: 400;
+    width: 100px;
+}
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input {
+    padding: 10px 60px 10px 14px;
+    font-size: 10px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.307);
+    color: white;
+}
+.secimg img{
+    width: 350px;
+}
+.secimg video{
+
+    width: 90%;
+}
+.ssecimg img{
+    width: 350px;
+}
+.ssecimg .boxshot1 :nth-child(1){
+    margin-bottom: 0px;
+}
+.ssecimg .boxshot1 .boxshot2 :nth-child(1){
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.ssecimg .boxshot1 .boxshot2 :nth-child(2){
+    margin-bottom: 10px;
+}
+.tsecimg img{
+    width: 355px;
+}
+.fsecimg img{
+    width: 350px;
+}
+.First div :nth-child(1){
+    font-size: 28px;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+.First div :nth-child(2){
+    font-size: 18px;
+    /* font-weight: bolder; */
+}
+.Second div :nth-child(1){
+    font-size: 28px;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+.Second div :nth-child(2){
+    font-size: 18px;
+    /* font-weight: bolder; */
+}
+.Third div :nth-child(1){
+    font-size: 28px;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+.Third div :nth-child(2){
+    font-size: 18px;
+    /* font-weight: bolder; */
+}
+.Fourth div :nth-child(1){
+    font-size: 28px;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+.Fourth div :nth-child(2){
+    font-size: 18px;
+    /* font-weight: bolder; */
+}
+.faq{
+    padding: 27px;
+}
+.faqbox{
+    font-size: 18px;
+}
+.faqbx{
+    text-align: center;
+    font-size: 15px;
+}
+.faqbx input {
+    width: 130px;
+    padding: 10px 50px 10px 14px;
+    font-size: 12px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.307);
+    color: white;
+}
+.faqbx .hero-buttons .btn-red{
+    width: 300px;
+    font-size: 10px;
+    padding: 10px 17px;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}

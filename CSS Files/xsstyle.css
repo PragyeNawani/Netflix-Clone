@@ -1,0 +1,133 @@
+nav img {
+    width: 70px;
+    margin-top: 8px;
+}
+nav button {
+    position: relative;
+    z-index: 11;
+    margin: 0px 10px;
+    font-size: 8px;
+}
+nav div select {
+    font-size: 8px;
+}
+.hero {
+    color: white;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    gap: 10px;
+    padding: 0px 20px;
+}
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+}
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+
+}
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 8px;
+    text-align: center;
+}
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 8px;
+    border-radius: 4px;
+    font-weight: 400;
+    width: 100px;
+}
+.main input {
+    padding: 10px 40px 10px 14px;
+    font-size: 8px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.307);
+    color: white;
+}
+.secimg img{
+    width: 250px;
+}
+.ssecimg img{
+    width: 250px;
+}
+.ssecimg .boxshot1 .boxshot2 :nth-child(1){
+    font-size: 15px;
+    margin-left: 4px;
+}
+.ssecimg .boxshot1 .boxshot2 :nth-child(2){
+    font-size: 10px;
+}
+.tsecimg img{
+    width: 255px;
+}
+.fsecimg img{
+    width: 250px;
+}
+.First div :nth-child(1){
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+.First div :nth-child(2){
+    font-size: 12px;
+    /* font-weight: bolder; */
+}
+.Second div :nth-child(1){
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+.Second div :nth-child(2){
+    font-size: 12px;
+    /* font-weight: bolder; */
+}
+.Third div :nth-child(1){
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+.Third div :nth-child(2){
+    font-size: 12px;
+    /* font-weight: bolder; */
+}
+.Fourth div :nth-child(1){
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+.Fourth div :nth-child(2){
+    font-size: 12px;
+    /* font-weight: bolder; */
+}
+.faq h2{
+    font-size: 18px;
+}
+.faqbox{
+    align-items: center;
+    font-size: 12px;
+}
+.faqbx{
+    text-align: center;
+    font-size: 12px;
+}
+.faqbx input {
+    width: 80px;
+    padding: 10px 50px 10px 14px;
+    font-size: 10px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.307);
+    color: white;
+}
